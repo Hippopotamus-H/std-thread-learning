@@ -4,7 +4,7 @@
 
 - std::thread 构造函数，不同函数类型，普通变量和引用的参数传递
 
-## [[第二章](./src/chapter-2/readme.md)]
+## [第二章](./src/chapter-2/readme.md)
 
 - std::mutex基本认识
 
