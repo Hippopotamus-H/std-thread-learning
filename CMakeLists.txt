@@ -23,3 +23,4 @@ add_subdirectory(third_party/googletest)
 
 
 add_subdirectory(cmake/chapter-1)
+add_subdirectory(cmake/chapter-2)

@@ -1,4 +1,4 @@
-set(TargetName chapter-1)
+set(TargetName chapter-2)
 project(${TargetName})
 
 set(TargetPrjDir ${CMAKE_SOURCE_DIR}/src/${TargetName})
