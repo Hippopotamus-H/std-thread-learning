@@ -8,7 +8,7 @@ set BUILD_TYPE=Debug
 
 cd ../../
 
-cmake -G %GENERATOR% -A %ARCH% -DCMAKE_BUILD_TYPE=%BUILD_TYPE% -B build
+cmake -G %GENERATOR% -A %ARCH% -DCMAKE_BUILD_TYPE=%BUILD_TYPE%   -DCMAKE_PREFIX_PATH="C:/Qt/6.10.0/msvc2022_64" -B build
 
 
 pause

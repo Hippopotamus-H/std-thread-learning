@@ -1,4 +1,4 @@
-set(TargetName chapter-2)
+set(TargetName chapter-3)
 project(${TargetName})
 
 if(MSVC)
@@ -14,6 +14,8 @@ set(TargetPrjDir ${CMAKE_SOURCE_DIR}/src/${TargetName})
 
 list(APPEND SOURCES
 ${TargetPrjDir}/main.cpp
+${TargetPrjDir}/calculatepi.h
+${TargetPrjDir}/calculatepi.cpp
 )
 
 set(gtestIncludeDir ${CMAKE_SOURCE_DIR}/third_party/googletest/googletest/include)
